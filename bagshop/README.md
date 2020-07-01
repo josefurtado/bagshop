@@ -1,6 +1,10 @@
-# bagshop
+# Bag Shop
+
+![bagshop_git](https://user-images.githubusercontent.com/27451718/86301182-89a8e280-bbdb-11ea-8412-871e61d3a22b.png)
 
 A new Flutter project.
+
+- [Design Credit](https://dribbble.com/shots/10812833-Bag-Shop-Free-Figma-File)
 
 ## Getting Started
 
