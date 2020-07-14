@@ -1,3 +1,4 @@
+import 'package:bagshop/src/pages/details.page.dart';
 import 'package:bagshop/src/widgets/custom_app_bar.widget.dart';
 import 'package:bagshop/src/widgets/custom_bottom_bar.dart';
 import 'package:flutter/material.dart';
@@ -225,7 +226,14 @@ class HomePage extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: <Widget>[
                     InkWell(
-                      onTap: () => {},
+                      onTap: () => {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailsPage(),
+                          ),
+                        ),
+                      },
                       child: Container(
                         width: 230.0,
                         margin: EdgeInsets.only(left: 30.0),
@@ -333,7 +341,14 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     InkWell(
-                      onTap: () => {},
+                      onTap: () => {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailsPage(),
+                          ),
+                        ),
+                      },
                       child: Container(
                         width: 250.0,
                         margin: EdgeInsets.only(left: 30.0, right: 10.0),
